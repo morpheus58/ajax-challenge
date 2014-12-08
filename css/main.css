@@ -10,4 +10,45 @@ body {
     height: 130px;
     margin-right: 10px;
 }
-
+#reminder {
+    font: 25px bold;
+}
+.btn-primary {
+    margin-top: 10px;
+    background-color: #4b2e83;
+    color: goldenrod;
+}
+#comment-rating {
+    color: goldenrod;
+}
+.box {
+    border: solid white;
+    border-radius: 15px;
+    background-color:  #4b2e83;
+    color: goldenrod;
+    font-size: 20px;
+}
+.box p {
+    margin-left: 1%;
+}
+#title {
+    padding-left: 1%;
+}
+#rating {
+    margin-left: 2%;
+}
+@media (max-width: 500px) {
+    .btn-warning {
+        bottom: 5%;
+        left: 65%;
+    }
+    .box {
+        font-size: 17px;
+    }
+    #title {
+        padding-left: 2%;
+    }
+}
+.display {
+    display: inline;
+}
